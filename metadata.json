@@ -4,13 +4,15 @@
     "path": {
       "docker": "/templates/Node.dockerfile",
       "ignore": "/templates/Node.dockerignore"
-    }
+    },
+    "exclude": ["node_modules", "dist", ".git"]
   },
   {
     "name": "Python 3.x 호스팅",
     "path": {
       "docker": "/templates/Python.dockerfile",
       "ignore": "/templates/Python.dockerignore"
-    }
+    },
+    "exclude": [".git"]
   }
 ]
