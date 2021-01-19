@@ -10,8 +10,16 @@
   {
     "name": "Python 3.x 호스팅",
     "path": {
-      "docker": "/templates/Python.dockerfile",
-      "ignore": "/templates/Python.dockerignore"
+      "docker": "/templates/Python3.dockerfile",
+      "ignore": "/templates/Python3.dockerignore"
+    },
+    "exclude": [".git"]
+  },
+  {
+    "name": "Python 2.x 호스팅",
+    "path": {
+      "docker": "/templates/Python2.dockerfile",
+      "ignore": "/templates/Python2.dockerignore"
     },
     "exclude": [".git"]
   }
