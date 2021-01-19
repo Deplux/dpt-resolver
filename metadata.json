@@ -1,6 +1,6 @@
 [
   {
-    "name": "Node.js 호스팅",
+    "name": "Node.js 호스팅 (v12)",
     "path": {
       "docker": "/templates/Node.dockerfile",
       "ignore": "/templates/Node.dockerignore"
@@ -8,7 +8,7 @@
     "exclude": ["node_modules", "dist", ".git"]
   },
   {
-    "name": "Python 3.x 호스팅",
+    "name": "Python 3.x 호스팅 (3.8)",
     "path": {
       "docker": "/templates/Python3.dockerfile",
       "ignore": "/templates/Python.dockerignore"
@@ -16,7 +16,7 @@
     "exclude": [".git"]
   },
   {
-    "name": "Python 2.x 호스팅",
+    "name": "Python 2.x 호스팅 (2.7)",
     "path": {
       "docker": "/templates/Python2.dockerfile",
       "ignore": "/templates/Python.dockerignore"
